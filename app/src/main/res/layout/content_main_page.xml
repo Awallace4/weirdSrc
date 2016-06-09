@@ -9,11 +9,71 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.andrew.weirdapp.MainPage"
-    tools:showIn="@layout/activity_main_page">
+    tools:context="com.example.andrew.weirdapp.MainPage">
+
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:text="Open Menu"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:text="Pix"
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Weird"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp" />
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageButton"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pictures of Product"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginTop="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Blog Stuff:"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/editText"
+        android:layout_toStartOf="@+id/textView" />
 </RelativeLayout>

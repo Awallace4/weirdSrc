@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/WeirdApp.iml" filepath="$PROJECT_DIR$/WeirdApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weirdSrc.iml" filepath="$PROJECT_DIR$/weirdSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/weirdSrc.iml" filepath="$PROJECT_DIR$/weirdSrc.iml" />
     </modules>
   </component>
